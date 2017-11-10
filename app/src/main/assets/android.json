@@ -1,0 +1,1226 @@
+﻿{
+  "data": {
+    "version": 7,
+    "array": [
+      {
+        "webName": "平安普惠",
+        "webSite": "http://www.createis.com.cn/appMsgVersion10.do?id=cxx-ycwl-xy-001",
+        "webUrl": {
+          "getUrl": [
+            "http://www.createis.com.cn/appMsgVersion10.do?"
+          ],
+          "setUrl": [
+            "http://www.createis.com.cn/appMsgVersion10.do?id=cxx-ycwl-xy-001"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var name=document.getElementById('LINKMAN_NAME').value;var mobile=document.getElementById('LINKMAN_MOBILETELEPHONE').value;window.web.saveUserData(name,mobile);",
+          "set": "javascript:var name=document.getElementById('LINKMAN_NAME').value='%s';var mobile=document.getElementById('LINKMAN_MOBILETELEPHONE').value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "平安普惠",
+        "webSite": "http://jwebplat.37xh.cn/ph/index?a=1007&t=1",
+        "webUrl": {
+          "getUrl": [
+            "http://jwebplat.37xh.cn/pp/paphSubmit"
+          ],
+          "setUrl": [
+            "http://jwebplat.37xh.cn/ph/index?a=1007&t=1"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var name=document.getElementById('uname').value;var mobile=document.getElementById('phone').value;window.web.saveUserData(name,mobile);",
+          "set": "javascript:var name=document.getElementById('uname').value='%s';var mobile=document.getElementById('phone').value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "钱站",
+        "webSite": "http://app-h5.iqianzhan.com/sources/outsideRegister.html?qd=aijieqian1",
+        "webUrl": {
+          "getUrl": [
+            "http://app-h5.iqianzhan.com/api/verify/getVerifyCode",
+            "http://app.jiea.iqianjin.com/qrcode.jsp?Qn=zhangshangqianbao1"
+          ],
+          "setUrl": [
+            "http://app-h5.iqianzhan.com/sources/outsideRegister.html?qd=aijieqian1",
+            "http://app-h5.iqianzhan.com/sources/outsideRegister.html?qd=rongxiangkj5"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var phone=document.getElementsByClassName('mobile')[0].value;window.web.saveUserData(phone,phone);",
+          "set": "javascript:var mobile = document.getElementsByClassName('mobile')[0].value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "好贷",
+        "webSite": "https://loan.rongba.com/H5tuiguang/kff?ref=hd_11013545",
+        "webUrl": {
+          "getUrl": [
+            "https://loan.rongba.com/H5tuiguang/kff"
+          ],
+          "setUrl": [
+            "https://loan.rongba.com/H5tuiguang/kff?ref=hd_11013545"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var name=document.getElementById('username').value;var mobile=document.getElementById('tel').value;window.web.saveUserData(name,mobile);",
+          "set": "javascript:var name=document.getElementById('username').value='%s';var mobile=document.getElementById('tel').value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "宜人贷",
+        "webSite": "https://www.yirendai.com/lp/140/2/?siteId=2854&source=1",
+        "webUrl": {
+          "getUrl": [
+            "https://www.yirendai.com/LandingPage/wap/by/success.html?op=2854"
+          ],
+          "setUrl": [
+            "https://www.yirendai.com/lp/140/2/?siteId=2854&source=1"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementById('mobile').value;window.web.saveUserData('',mobile);",
+          "set": "javascript:var mobile=document.getElementById('mobile').value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "宜人贷",
+        "webSite": "https://www.yirendai.com/lp/64/2/?siteId=2489",
+        "webUrl": {
+          "getUrl": [
+            "https://general.yirendai.com/loan/wapSendMsg"
+          ],
+          "setUrl": [
+            "https://www.yirendai.com/lp/64/2/?siteId=2489"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementsByClassName('phoneInp')[0].value;window.web.saveUserData('',mobile);",
+          "set": "javascript:var mobile=document.getElementsByClassName('phoneInp')[0].value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "功夫贷",
+        "webSite": "http://channel.91gfd.com/register/2?channel=_aijieqian11",
+        "webUrl": {
+          "getUrl": [
+            "http://channel.91gfd.com/register/2?channel=_aijieqian11&status=success"
+          ],
+          "setUrl": [
+            "http://channel.91gfd.com/register/2?channel=_aijieqian11"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementsByName('mobile')[0].value;window.web.saveUserData('',mobile);",
+          "set": "javascript:var mobile=document.getElementsByName('mobile')[0].value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "你我贷",
+        "webSite": "https://ka.niwodai.com/loans-mobile/product.do?method=index&sc=Ecrypted9ReCrnh31C6TVC1wVd55Qw==&nwd_ext_aid=5020160126275433&source_id=",
+        "webUrl": {
+          "getUrl": [
+            "http://a.app.qq.com/o/simple.jsp?pkgname=com.niwodai.universityloan"
+          ],
+          "setUrl": [
+            "https://ka.niwodai.com/loans-mobile/product.do?method=index&sc=Ecrypted9ReCrnh31C6TVC1wVd55Qw==&nwd_ext_aid=5020160126275433&source_id="
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementById('mobile').value;window.web.saveUserData('',mobile);",
+          "set": "javascript:setTimeout(function(){document.getElementById('mobile').value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "现金借款",
+        "webSite": "https://www.yangqianguan.com/flexible/index?act=90lfx",
+        "webUrl": {
+          "getUrl": [
+            "https://www.yangqianguan.com/api/v3/mobile/sendVerification"
+          ],
+          "setUrl": [
+            "https://www.yangqianguan.com/flexible/index?act",
+            "https://www.yangqianguan.com/flexible/index?act=RJKWCM",
+            "https://www.yangqianguan.com/flexible/index?act"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementsByClassName('yqg-mo-input yqg-mo-input-phone')[0].value;window.web.saveUserData('',mobile);",
+          "set": "javascript:setTimeout(function(){document.getElementsByClassName('yqg-mo-input yqg-mo-input-phone')[0].value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "现金侠",
+        "webSite": "http://super.xianjinxia.com//act/light-loan-xjx?invite_code=NjQ4Njcy&user_from=148",
+        "webUrl": {
+          "getUrl": [
+            "http://super.xianjinxia.com/act/light-loan-xjx/succ"
+          ],
+          "setUrl": [
+            "http://super.xianjinxia.com//act/light-loan-xjx?invite_code=NjQ4Njcy&user_from=148"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementById('userPhone').value;window.web.saveUserData('',mobile);",
+          "set": "javascript:var mobile=document.getElementById('userPhone').value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "曹操贷",
+        "webSite": "https://m.ppdai.com/act/cpa/cpa_tenth.html?source=xiamenyouyu&url=",
+        "webUrl": {
+          "getUrl": [
+            "https://api.growingio.com/v2/b9598a05ad0393b9/web/action?"
+
+          ],
+          "setUrl": [
+            "https://m.ppdai.com/act/cpa/?source=xiamenyouyu2&url=",
+            "https://m.ppdai.com/act/cpa/?source=xiamenyouyu&url=https://lnk0.com/NVtQBh"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementsByName('mobile')[0].value;window.web.saveUserData('',mobile);",
+          "set": "javascript:var mobile=document.getElementsByName('mobile')[0].value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "曹操贷",
+        "webSite": "https://m.ppdai.com/act/cpa/cpa_tenth.html?source=xiamenyouyu&url=",
+        "webUrl": {
+          "getUrl": [
+            "https://api.growingio.com/v2/b9598a05ad0393b9/web/action?"
+
+          ],
+          "setUrl": [
+            "https://ac.ppdai.com/activitypage?redirect=&style=&activityId=86&source=xiamenyouyu2",
+            "https://m.ppdai.com/act/cpa/?source=xiamenyouyu&url=https://lnk0.com/NVtQBh"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementById('num1').value;window.web.saveUserData('',mobile);",
+          "set": "javascript:var mobile=document.getElementById('num1').value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },{
+        "webName": "快贷",
+        "webSite": "https://site.wacai.com/page/2835",
+        "webUrl": {
+          "getUrl": [
+            "https://user.wacai.com/reg_h5/check_mob",
+            "https://user.wacai.com/reg_h5/sendVerCode"
+          ],
+          "setUrl": [
+            "https://site.wacai.com/page/2835",
+            "https://microservice.wacai.com/loan/welfare/happly/yywl/28a00195?af=LW25YYWLQLC1&sign=7b47f0011366f32954181c11d0b5f293"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementsByName('mob')[0].value;window.web.saveUserData('',mobile);",
+          "set": "javascript:setTimeout(function(){document.getElementsByName('mob')[0].value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "快贷登录",
+        "webSite": "https://user.wacai.com/h5_login?platform=62&url=https%3A%2F%2Fmicroservice.wacai.com%2Floan%2Frapid%2Fthirdparty%2Frouter",
+        "webUrl": {
+          "getUrl": [
+            "https://user.wacai.com/h5_login?platform=62&url=https%3A%2F%2Fmicroservice.wacai.com%2Floan%2Frapid%2Fthirdparty%2Frouter"
+          ],
+          "setUrl": [
+            "https://user.wacai.com/h5_login?platform=62&url=https%3A%2F%2Fmicroservice.wacai.com%2Floan%2Frapid%2Fthirdparty%2Frouter"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementById('account').value;window.web.saveUserData('',mobile);",
+          "set": "javascript:setTimeout(function(){document.getElementById('account').value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "现金白卡",
+        "webSite": "http://api.51ygdai.com/act/light-loan?source_tag=H5-xed2",
+        "webUrl": {
+          "getUrl": [
+            "http://api.51ygdai.com/user/reg-get-code?"
+          ],
+          "setUrl": [
+            "http://api.51ygdai.com/act/light-loan?source_tag=H5-xed2",
+            "http://api.koudaikj.com/act/light-loan?source_tag=H5-xygj2"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementsByName('phone')[0].value;window.web.saveUserData('',mobile);",
+          "set": "javascript:var mobile=document.getElementsByName('phone')[0].value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "快钱",
+        "webSite": "https://www.99bill.com/seashell/html/activity/161125_kyhcach_mm/default.html?datasrc=link33",
+        "webUrl": {
+          "getUrl": [
+            "https://www.99bill.com/seashell/html/activity/161125_kyhcach_mm/default.html"
+          ],
+          "setUrl": [
+            "https://www.99bill.com/seashell/html/activity/161125_kyhcach_mm/default.html?datasrc=link33",
+            "https://www.99bill.com/seashell/html/activity/161125_kyhcach_mm/default.html?datasrc=link"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementsByClassName('text-phone')[0].value;window.web.saveUserData('',mobile)",
+          "set": "javascript:setTimeout(function(){document.getElementsByClassName('text-phone')[0].value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "魔法现金",
+        "webSite": "https://m.aladingbank.com/web_act/src/webApp/page/bigWaspRegister/main.html?ch=jiedaibao1",
+        "webUrl": {
+          "getUrl": [
+            "https://m.aladingbank.com/downApp.html?type=2"
+          ],
+          "setUrl": [
+            "https://m.aladingbank.com/web_act/src/webApp/page/bigWaspRegister/main.html?ch=jiedaibao1"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementsByName('loginName')[0].value;window.web.saveUserData('',mobile);",
+          "set": "javascript:var mobile=document.getElementsByName('loginName')[0].value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "用钱宝",
+        "webSite": "https://www.yongqianbao.com/wr/launch-register?c=591",
+        "webUrl": {
+          "getUrl": [
+            "https://www.yongqianbao.com/download?c=591"
+          ],
+          "setUrl": [
+            "https://www.yongqianbao.com/wr/launch-register?c=591"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementById('phone').value;window.web.saveUserData('',mobile);",
+          "set": "javascript:var mobile=document.getElementById('phone').value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "平安i贷",
+        "webSite": "http://www.10100000.com/m/iloan/apply1.html?utm_source=wxhnnxkida--m&utm_medium=cps&utm_campaign=m0018--iln&utm_content=m-YY001&WT.mc_id=CXX-WXHNNXKIDA-YY001-CSM-M0018ILN&",
+        "webUrl": {
+          "getUrl": [
+            "http://www.10100000.com/m/iloan/result1.html?utm_index=&utm_source=wxhnnxkida--m&utm_medium=cps&utm_campaign=m0018--iln&utm_content=m-YY001&WT.mc_id=CXX-WXHNNXKIDA-YY001-CSM-M0018ILN&",
+            "http://www.10100000.com/m/iloan/result1.html?utm_index=&utm_source=wxhnnxkida--m&utm_medium=cps&utm_campaign=m0018--iln&utm_content",
+            "https://www.10100000.com/m/iloan/result1.html?utm_index=&utm_source=wxhnwxxobn--m&utm_medium=cps&utm_campaign=m0018--iln&utm_content=m-XB041&WT.mc_id=CXX-WXHNWXXOBN-XB041-CSM-M0018ILN&"
+          ],
+          "setUrl": [
+            "http://www.10100000.com/m/iloan/apply1.html?utm_source=wxhnnxkida--m&utm_medium=cps&utm_campaign=m0018--iln&utm_content=m-YY001&WT.mc_id=CXX-WXHNNXKIDA-YY001-CSM-M0018ILN&",
+            "https://www.10100000.com/m/iloan/apply1.html?utm_source=wxhanxzhij--m&utm_medium=cpa&utm_campaign=m0018--iln&utm_content",
+            "https://www.10100000.com/m/iloan/apply1.html?utm_source=wxhnwxxobn--m&utm_medium=cps&utm_campaign=m0018--iln&utm_content=m-XB041&WT.mc_id=CXX-WXHNWXXOBN-XB041-CSM-M0018ILN&"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementsByClassName('inp-tel')[0].value;window.web.saveUserData('',mobile);",
+          "set": "javascript:var mobile=document.getElementsByClassName('inp-tel')[0].value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "平安i贷",
+        "webSite": "http://www.10100000.com/m/iloan/apply1.html?utm_source=wxhnnxkida--m&utm_medium=cps&utm_campaign=m0018--iln&utm_content=m-YY001&WT.mc_id=CXX-WXHNNXKIDA-YY001-CSM-M0018ILN&",
+        "webUrl": {
+          "getUrl": [
+            "http://www.10100000.com/m/iloan/result1.html?utm_index=&utm_source=wxhnnxkida--m&utm_medium=cps&utm_campaign=m0018--iln&utm_content=m-YY001&WT.mc_id=CXX-WXHNNXKIDA-YY001-CSM-M0018ILN&",
+            "http://www.10100000.com/m/iloan/result1.html?utm_index=&utm_source=wxhnnxkida--m&utm_medium=cps&utm_campaign=m0018--iln&utm_content",
+            "https://www.10100000.com/m/iloan/result1.html?utm_index=&utm_source=wxhnwxxobn--m&utm_medium=cps&utm_campaign=m0018--iln&utm_content=m-XB041&WT.mc_id=CXX-WXHNWXXOBN-XB041-CSM-M0018ILN&"
+          ],
+          "setUrl": [
+            "https://www.10100000.com/m/iloan/apply1.html?utm_source=wxhnwxxobn--m&utm_medium=cps&utm_campaign=m0018--iln&utm_content=m-XB041&WT.mc_id=CXX-WXHNWXXOBN-XB041-CSM-M0018ILN&"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementsByClassName('inp-tel')[0].value;window.web.saveUserData('',mobile);",
+          "set": "javascript:var mobile=document.getElementsByClassName('inp-tel')[0].value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "贷款王",
+        "webSite": "https://mdaikuan.2345.com/register3?channel=hj-zsqb01_cpl_zyn",
+        "webUrl": {
+          "getUrl": [
+            "download?auto=true",
+            "http://daikuan.2345.com/lauchAPP"
+          ],
+          "setUrl": [
+            "https://mdaikuan.2345.com/register3?channel=hj-zsqb01_cpl_zyn",
+            "https://mdaikuan.2345.com/register?channel=hj-zsqb02_cpl_zyn",
+            "https://mdaikuan.2345.com/register3?channel=hj-rxkj_cpl_wlei",
+            "https://mdaikuan.2345.com/register3?channel"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementById('id_phoneNum').value;window.web.saveUserData('',mobile);",
+          "set": "javascript:setTimeout(function(){document.getElementById('id_phoneNum').value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "小赢卡贷",
+        "webSite": "https://cardloan.xiaoying.com/kadai/index?source=10000722",
+        "webUrl": {
+          "getUrl": [
+            "https://cardloan.xiaoying.com/h5/user/check_register"
+          ],
+          "setUrl": [
+            "https://cardloan.xiaoying.com/kadai/index?source=10000722#!/",
+            "https://cardloan.xiaoying.com/kadai/index?source=10000722#!/register/1"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementsByName('mobile')[0].value;window.web.saveUserData('',mobile);",
+          "set": "javascript:var mobile=document.getElementsByName('mobile')[0].value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "小赢卡贷登录",
+        "webSite": "https://cardloan.xiaoying.com/kadai/index?source=10000722#!/login",
+        "webUrl": {
+          "getUrl": [
+            "https://cardloan.xiaoying.com/kadai/index?source=10000722#!/"
+          ],
+          "setUrl": [
+            "https://cardloan.xiaoying.com/kadai/index?source=10000722#!/login"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementsByName('mobile')[0].value;window.web.saveUserData('',mobile);",
+          "set": "javascript:var mobile=document.getElementsByName('mobile')[0].value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "拍拍贷",
+        "webSite": "http://m.ppdai.com/landingcpsnew.html?regsourceid=shenzhoushandai01",
+        "webUrl": {
+          "getUrl": [
+            "http://m.ppdai.com/loan/users/userinfo"
+          ],
+          "setUrl": [
+            "http://m.ppdai.com/landingcpsnew.html?regsourceid=shenzhoushandai01"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementById('phone').value;window.web.saveUserData('',mobile);",
+          "set": "javascript:var mobile=document.getElementById('phone').value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "手机贷",
+        "webSite": "https://m.shoujidai.com/index.php/user/flow_index/channel/youyunet-llcs.html",
+        "webUrl": {
+          "getUrl": [
+            "https://m.shoujidai.com/index.php"
+          ],
+          "setUrl": [
+            "http://m.mobp2p.com/index.php/user/login.html"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementById('userName').value;window.web.saveUserData('',mobile);",
+          "set": "javascript:var mobile=document.getElementById('userName').value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "手机贷注册",
+        "webSite": "http://m.mobp2p.com/index.php/User/register.html",
+        "webUrl": {
+          "getUrl": [
+            "http://m.mobp2p.com/index.php"
+          ],
+          "setUrl": [
+            "http://m.mobp2p.com/index.php/User/register.html"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementById('userName').value;window.web.saveUserData('',mobile);",
+          "set": "javascript:var mobile=document.getElementById('userName').value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "手机贷注册",
+        "webSite": "http://m.mobp2p.com/index.php/User/register.html",
+        "webUrl": {
+          "getUrl": [
+            "http://m.mobp2p.com/index.php"
+          ],
+          "setUrl": [
+            "http://m.mobp2p.com/index.php/User/register.html"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementById('userName').value;window.web.saveUserData('',mobile);",
+          "set": "javascript:var mobile=document.getElementById('userName').value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "卡卡贷",
+        "webSite": "http://game.kkcredit.cn/download/yidaizhijia/kakaadv1",
+        "webUrl": {
+          "getUrl": [
+            "http://download.kkcredit.cn/apk/app-yidaizhijia-release.apk"
+          ],
+          "setUrl": [
+            "http://game.kkcredit.cn/download/yidaizhijia/kakaadv1"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementsByName('phonenum')[0].value;window.web.saveUserData('',mobile);",
+          "set": "javascript:var mobile=document.getElementsByName('phonenum')[0].value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "贷上钱",
+        "webSite": "https://www.daishangqian.com/vue/?channel=58ad0c8eb4c3#!/active/promotion",
+        "webUrl": {
+          "getUrl": [
+            "https://api.daishangqian.com/v3/user/send-sms-code?"
+          ],
+          "setUrl": [
+            "https://api.daishangqian.com/vue/?channel=595f4746fb42#!/active/promotion/page11"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementsByName('phone')[0].value;window.web.saveUserData('',mobile)",
+          "set": "javascript:setTimeout(function(){document.getElementsByName('phone')[0].value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "读秒",
+        "webSite": "https://loan-m.jimu.com/loanv5/user/login?redirect=/api/apply/limit",
+        "webUrl": {
+          "getUrl": [
+            "https://loan-m.jimu.com/api/login/sms"
+          ],
+          "setUrl": [
+            "https://loan-m.jimu.com/loanv5/user/login?redirect=/api/apply/limit"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementById('mobile').value;window.web.saveUserData('',mobile);",
+          "set": "javascript:setTimeout(function(){document.getElementById('mobile').value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "读秒",
+        "webSite": "https://loan-m.jimu.com/loanv5/apply/index?from=idmiao25&appd=0&bann=0",
+        "webUrl": {
+          "getUrl": [
+            "https://loan-m.jimu.com/api/login/sms"
+          ],
+          "setUrl": [
+            "https://loan-m.jimu.com/loanv5/apply/index?from=idmiao25&appd=0&bann=0"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementById('mobile').value;window.web.saveUserData('',mobile);",
+          "set": "javascript:setTimeout(function(){document.getElementById('mobile').value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "读秒注册",
+        "webSite": "https://loan-m.jimu.com/loanv5/user/login?redirect=/api/apply/limit",
+        "webUrl": {
+          "getUrl": [
+            "https://loan-m.jimu.com/loanv2/user/register/success"
+          ],
+          "setUrl": [
+            "https://loan-m.jimu.com/loanv5/user/login?redirect=/api/apply/limit"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementById('mobile').value;window.web.saveUserData('',mobile);",
+          "set": "javascript:var mobile=document.getElementById('mobile').value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "信而富",
+        "webSite": "https://promotion.crfchina.com/localMarket/index.html?c=&s=imm3&salesmanNo=JKHZ0274",
+        "webUrl": {
+          "getUrl": [
+            "https://promotion.crfchina.com/promotion/invite"
+          ],
+          "setUrl": [
+            "https://promotion.crfchina.com/localMarket/index.html?c=&s=imm3&salesmanNo=JKHZ0274"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var name = document.getElementsByClassName('user_name')[0].value;var mobile =document.getElementsByClassName('phone list')[0].value;window.web.saveUserData(name,mobile);",
+          "set": "javascript:var name = document.getElementsByClassName('user_name')[0].value='%s';var mobile = var mobile =document.getElementsByClassName('phone list')[0].value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "先花一亿元",
+        "webSite": "http://weixin.xianhuahua.com/dev/coupon/couponappsix?from",
+        "webUrl": {
+          "getUrl": [
+            "http://weixin.xianhuahua.com/dev/coupon/sixappsuccess?mobile"
+          ],
+          "setUrl": [
+            "http://weixin.xianhuahua.com/dev/coupon/couponappsix?from"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementsByName('mobile')[0].value;window.web.saveUserData('',mobile);",
+          "set": "javascript:var mobile=document.getElementsByName('mobile')[0].value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "融360",
+        "webSite": "https://m.rong360.com/express?from=sem21&inapp=1&utm_source=youyu&utm_medium=cpa&utm_campaign=sem21_aijieqian",
+        "webUrl": {
+          "getUrl": [
+            "https://m.rong360.com/mapi/loan/presubmit_check"
+          ],
+          "setUrl": [
+            "https://m.rong360.com/express?from=sem21&inapp=1&utm_source=youyu&utm_medium=cpa&utm_campaign=sem21_aijieqian"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var name=document.getElementsByName('name')[0].value;var mobile=document.getElementsByName('phone')[0].value;window.web.saveUserData(name,mobile);",
+          "set": "javascript:var name=document.getElementsByName('name')[0].value='%s';var mobile=document.getElementsByName('phone')[0].value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "融360",
+        "webSite": "https://m.rong360.com/express?from=sem32&utm_source=youyu&utm_medium=cpa&utm_campaign=sem32_aijieqian",
+        "webUrl": {
+          "getUrl": [
+            "https://m.rong360.com/mapi/loan/presubmit_check"
+          ],
+          "setUrl": [
+            "https://m.rong360.com/express?from"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var name=document.getElementsByName('name')[0].value;var mobile=document.getElementsByName('phone')[0].value;window.web.saveUserData(name,mobile);",
+          "set": "javascript:var name=document.getElementsByName('name')[0].value='%s';var mobile=document.getElementsByName('phone')[0].value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "闪银",
+        "webSite": "http://m.wecash.net/wep/share/simple_h5.html?version=h5&channelId=5699&channelCode=11557a",
+        "webUrl": {
+          "getUrl": [
+            "http://m.wecash.net/wep/index.html?version=h5"
+          ],
+          "setUrl": [
+            "http://m.wecash.net/wep/share/simple_h5.html?version=h5&channelId=5699&channelCode=11557a"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementById('phone').value;window.web.saveUserData('',mobile);",
+          "set": "javascript:var mobile=document.getElementById('phone').value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "豆豆钱",
+        "webSite": "http://m.ddcash.cn/register.html?mark=jsd1&channel=yidaizhijiaad",
+        "webUrl": {
+          "getUrl": [
+            "http://m.ddcash.cn/download.html?mark=jsd1&channel=yidaizhijiaad"
+          ],
+          "setUrl": [
+            "http://m.ddcash.cn/register.html?mark=jsd1&channel=yidaizhijiaad"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementById('mobile').value;window.web.saveUserData('',mobile);",
+          "set": "javascript:setTimeout(function(){document.getElementById('mobile').value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "快乐达",
+        "webSite": "https://app.credan.com/v1.5.1/?merchantId=cb59afc32e064ec784643ea789bf16f3&invitCode=000000&selectPd=1&hdId=10002&End",
+        "webUrl": {
+          "getUrl": [
+            "https://consumer.credan.com/wx/userEnrollCode"
+          ],
+          "setUrl": [
+            "https://app.credan.com/v1.5.1/?merchantId=cb59afc32e064ec784643ea789bf16f3&invitCode=000000&selectPd"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementById('phoneNum').value;window.web.saveUserData('',mobile);",
+          "set": "javascript:var mobile=document.getElementById('phoneNum').value='%s';"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "借钱快",
+        "webSite": "https://www.jie518.com/web/invitation/register-amount?channel=dxq210120&utm_source=dxq210120&utm_medium=cps&utm_campaign=dxq210120",
+        "webUrl": {
+          "getUrl": [
+            "https://www.jie518.com/web/invitation"
+          ],
+          "setUrl": [
+            "https://www.jie518.com/web/invitation/register-amount?channel=dxq210120&utm_source=dxq210120&utm_medium=cps&utm_campaign=dxq210120"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementById('phoneNo').value;window.web.saveUserData('',mobile);",
+          "set": "javascript:setTimeout(function(){document.getElementById('phoneNo').value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "极速贷",
+        "webSite": "https://promotion.crfchina.com/localMarket/index.html?c=&s=imm3&salesmanNo=JKHZ0274&agentNo=JKHZ0274_20170424XMYY001",
+        "webUrl": {
+          "getUrl": [
+            "https://promotion.crfchina.com/localMarket/Registered.html"
+          ],
+          "setUrl": [
+            "https://promotion.crfchina.com/localMarket/index.html?c=&s=imm3&salesmanNo=JKHZ0274&agentNo=JKHZ0274_20170424XMYY001"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementsByClassName('phone list')[0].value;window.web.saveUserData('',mobile);",
+          "set": "javascript:setTimeout(function(){document.getElementsByClassName('phone list')[0].value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "你我贷-秒啦",
+        "webSite": "https://ka.niwodai.com/loans-mobile/product.do?method=index&sc=Ecrypted9ReCrnh31C6TVC1wVd55Qw==&nwd_ext_aid=5020160126275433&source_id=",
+        "webUrl": {
+          "getUrl": [
+            "https://ka.niwodai.com/loans-mobile/product.do?method=index&sc=505"
+          ],
+          "setUrl": [
+            "https://ka.niwodai.com/loans-mobile/product.do?method=index&sc=Ecrypted9ReCrnh31C6TVC1wVd55Qw==&nwd_ext_aid=5020160126275433&source_id="
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementsByClassName('inputCom jk-telTxt')[0].value;window.web.saveUserData('',mobile);",
+          "set": "javascript:setTimeout(function(){document.getElementsByClassName('phone list')[0].value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "宜信",
+        "webSite": "http://x.yixin.com/tongyong4?utm_source=aijieqian&utm_medium=xd-cps&utm_term=&utm_content=&utm_campaign=aijieqian1",
+        "webUrl": {
+          "getUrl": [
+            "http://x.yixin.com/mobile/tongyong/customer"
+          ],
+          "setUrl": [
+            "http://x.yixin.com/tongyong16/ajqq?utm_source=aijieqian&utm_medium=xd-cps&utm_term=&utm_content=&utm_campaign=%E7%88%B1%E5%80%9F%E9%92%B11"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var name=document.getElementById('uname').value;var mobile=document.getElementById('phone').value;window.web.saveUserData(name,mobile);",
+          "set": "javascript:setTimeout(function(){document.getElementById('uname').value='%s';document.getElementById('phone').value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "快易花",
+        "webSite": "https://www.99bill.com/seashell/html/activity/161125_kyhcach_mm/default.html?datasrc=link-csd-zj-448",
+        "webUrl": {
+          "getUrl": [
+            "http://a.app.qq.com/o/simple.jsp?"
+          ],
+          "setUrl": [
+            "https://www.99bill.com/seashell/html/activity/161125_kyhcach_mm/default.html?datasrc=link-csd-zj-448"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementsByClassName('text-phone')[0].value;window.web.saveUserData('',mobile);",
+          "set": "javascript:setTimeout(function(){document.getElementsByClassName('text-phone')[0].value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "51返呗",
+        "webSite": "https://app.51fanbei.com/app/user/channelRegister?channelCode=Sxmyyyy&pointCode=Sxmyy11",
+        "webUrl": {
+          "getUrl": [
+            "https://app.51fanbei.com/app/user/commitChannelRegister"
+          ],
+          "setUrl": [
+            "https://app.51fanbei.com/app/user/channelRegister?channelCode=Sxmyyyy&pointCode=Sxmyy11"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementById('register_mobile').value;window.web.saveUserData('',mobile);",
+          "set": "javascript:setTimeout(function(){document.getElementById('register_mobile').value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "91借钱",
+        "webSite": "http://channel.91jieqian.cn/act/light-loan-jq?invite_code=NDQ0NTMx&user_from=24",
+        "webUrl": {
+          "getUrl": [
+            "http://channel.91jieqian.cn/act/light-loan-jq/"
+          ],
+          "setUrl": [
+            "http://channel.91jieqian.cn/act/light-loan-jq?invite_code=NDQ0NTMx&user_from=24"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementById('userPhone').value;window.web.saveUserData('',mobile);",
+          "set": "javascript:setTimeout(function(){document.getElementById('userPhone').value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "江湖救急",
+        "webSite": "https://api.51jiuji.com/v1/m#/u_loginregist?utm_source=aijieqian",
+        "webUrl": {
+          "getUrl": [
+            "https://api.51jiuji.com/sms_code/"
+          ],
+          "setUrl": [
+            "https://api.51jiuji.com/v1/m#/u_loginregist?utm_source=aijieqian"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementsByName('phone')[0].value;window.web.saveUserData('',mobile);",
+          "set": "javascript:setTimeout(function(){document.getElementsByName('phone')[0].value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "信用钱包",
+        "webSite": "https://passport.xyqb.com/landing-1",
+        "webUrl": {
+          "getUrl": [
+            "https://passportapi.xyqb.com/api/sms/send_login_code"
+          ],
+          "setUrl": [
+            "https://passport.xyqb.com/landing-1"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementsByClassName('qg-flex-1')[0].value;window.web.saveUserData('',mobile);",
+          "set": "javascript:setTimeout(function(){document.getElementsByClassName('qg-flex-1')[0].value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "51返呗",
+        "webSite": "https://app.51fanbei.com/app/user/channelRegister?channelCode=Sxjdjdd&pointCode=Sxjd155",
+        "webUrl": {
+          "getUrl": [
+            "https://app.51fanbei.com/app/user/commitChannelRegister"
+          ],
+          "setUrl": [
+            "https://app.51fanbei.com/app/user/channelRegister?channelCode=Sxjdjdd&pointCode=Sxjd155"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementById('register_mobile').value;window.web.saveUserData('',mobile);",
+          "set": "javascript:setTimeout(function(){document.getElementById('register_mobile').value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "微贷",
+        "webSite": "https://static1.weidai.com.cn/static/common/weiApp/webH5/clubpropagate/?channel=xianjdk821",
+        "webUrl": {
+          "getUrl": [
+            "https://clapp.weidai.com.cn/v1/code/exoticSms?"
+          ],
+          "setUrl": [
+            "https://static1.weidai.com.cn/static/common/weiApp/webH5/clubpropagate/?channel=xianjdk821"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementsByName('mobile')[0].value;window.web.saveUserData('',mobile);",
+          "set": "javascript:setTimeout(function(){document.getElementsByName('mobile')[0].value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "信用白条",
+        "webSite": "http://qb.wzdai.com/newh5/web/page/app-reg?source_tag=xianjindai_06",
+        "webUrl": {
+          "getUrl": [
+            "http://qb.wzdai.com/frontend/web/xqb-user/reg-get-code?"
+          ],
+          "setUrl": [
+            "http://qb.wzdai.com/newh5/web/page/app-reg?source_tag=xianjindai_06"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementById('phone').value;window.web.saveUserData('',mobile);",
+          "set": "javascript:setTimeout(function(){document.getElementById('phone').value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "信用白条",
+        "webSite": "http://qb.wzdai.com/newh5/web/page/app-reg?source_tag=xianjindai_06",
+        "webUrl": {
+          "getUrl": [
+            "http://cc.yicaidao.cn/daikuan/ajax_post?random="
+          ],
+          "setUrl": [
+            "http://qb.wzdai.com/newh5/web/page/app-reg?source_tag=xianjindai_06"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementById('phone').value;window.web.saveUserData('',mobile);",
+          "set": "javascript:setTimeout(function(){document.getElementById('phone').value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "杏仁钱包",
+        "webSite": "https://www.nutfin.cn/wap/index.php?ctl=qtx_reg_channel&c=N119",
+        "webUrl": {
+          "getUrl": [
+            "https://www.nutfin.cn/wap/index.php?post_type=json&ctl=register_rs"
+          ],
+          "setUrl": [
+            "https://www.nutfin.cn/wap/index.php?ctl=qtx_reg_channel&c=N119"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementById('phoneNumber').value;window.web.saveUserData('',mobile);",
+          "set": "javascript:setTimeout(function(){document.getElementById('phoneNumber').value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "大小贷",
+        "webSite": "https://m.daxiaodai.com/hd/active/html/landing_page.html?source=dld-llcs-channel2",
+        "webUrl": {
+          "getUrl": [
+            "https://m.daxiaodai.com/api/pub/1.0.0/account/user/sign-up?phone="
+          ],
+          "setUrl": [
+            "https://m.daxiaodai.com/hd/active/html/landing_page.html?source=dld-llcs-channel2"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementById('cellphone').value;window.web.saveUserData('',mobile);",
+          "set": "javascript:setTimeout(function(){document.getElementById('cellphone').value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "51零用钱",
+        "webSite": "https://web.u51.com/lyq-register/?notwakeup=true&from=lyq_gg60&channel=lyq_gg60&at=Hzqiau#/?_mhk_=g0pboq",
+        "webUrl": {
+          "getUrl": [
+            "https://web.u51.com/api.u51.com/usercenter-gateway/api/v2/web/register?plat=4&channel=lyq_gg60&version=1.0.0&big_app_id=17&app_id=1000&scenes=0"
+          ],
+          "setUrl": [
+            "https://web.u51.com/lyq-register/?notwakeup=true&from=lyq_gg60&channel=lyq_gg60&at=Hzqiau#/"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementsByClassName('phone-wrapper')[0].children[1].value;window.web.saveUserData('',mobile);",
+          "set": "javascript:setTimeout(function(){document.getElementsByClassName('phone-wrapper')[0].children[1].value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "51零用钱",
+        "webSite": "https://web.u51.com/lyq-register/?notwakeup=true&from=lyq_gg60&channel=lyq_gg60&at=Hzqiau#/?_mhk_=g0pboq",
+        "webUrl": {
+          "getUrl": [
+            "https://web.u51.com/api.u51.com/usercenter-gateway/api/v2/web/register?plat=4&channel=lyq_gg60&version=1.0.0&big_app_id=17&app_id=1000&scenes=0"
+          ],
+          "setUrl": [
+            "https://web.u51.com/lyq-register/?notwakeup=true&from=lyq_gg60&channel=lyq_gg60&at=Hzqiau#/"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementsByClassName('phone-wrapper')[0].children[1].value;window.web.saveUserData('',mobile);",
+          "set": "javascript:setTimeout(function(){document.getElementsByClassName('phone-wrapper')[0].children[1].value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      },
+      {
+        "webName": "爱信钱包",
+        "webSite": "http://api1.aixinqianbao.com.cn/e633a245ab8d4921a6f2233d9fd27202/regis/index.html?channelId=323963312e0147e3af2a140b8d8ddbd5",
+        "webUrl": {
+          "getUrl": [
+            "http://101.37.223.26/user/sendOther"
+          ],
+          "setUrl": [
+            "http://api1.aixinqianbao.com.cn/e633a245ab8d4921a6f2233d9fd27202/regis/index.html?channelId=323963312e0147e3af2a140b8d8ddbd5"
+          ]
+        },
+        "script_android": {
+          "get": "javascript:var mobile=document.getElementById('phone').value;window.web.saveUserData('',mobile);",
+          "set": "javascript:setTimeout(function(){document.getElementById('phone').value='%s';},1000);"
+        },
+        "script_ios": {
+          "name": "",
+          "phone": "",
+          "after_js": ""
+        }
+      }
+    ]
+  }
+}

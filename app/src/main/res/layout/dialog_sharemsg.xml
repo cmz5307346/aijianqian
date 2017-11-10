@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/dialog_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/dialog_showImg"
+            android:layout_alignEnd="@+id/dialog_showImg"
+            android:layout_alignRight="@+id/dialog_showImg"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/ic_close" />
+
+        <ImageView
+            android:id="@+id/dialog_showImg"
+            android:layout_width="240dp"
+            android:layout_height="335dp"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/bg_dialog" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/dialog_showImg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="56dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/code_dialog" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/dialog_showImg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:text="“快乐与人分享就是两份快乐”"
+            android:textColor="#0071eb" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

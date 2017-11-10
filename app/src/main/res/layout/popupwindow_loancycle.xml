@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llllll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_pop"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <RadioGroup
+        android:id="@+id/heade_rg_sum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/loan_heade_sumrb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_background"
+            android:button="@null"
+            android:gravity="center"
+            android:tag="0"
+            android:text="全部"
+            android:textColor="@drawable/radio_font"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/loan_heade_sumrb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_background"
+            android:button="@null"
+            android:gravity="center"
+            android:tag="1"
+            android:text="1千"
+            android:textColor="@drawable/radio_font"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/loan_heade_sumrb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_background"
+            android:button="@null"
+            android:gravity="center"
+            android:tag="2"
+            android:text="2-5千"
+            android:textColor="@drawable/radio_font"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/loan_heade_sumrb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_background"
+            android:button="@null"
+            android:gravity="center"
+            android:tag="3"
+            android:text="5千以上"
+            android:textColor="@drawable/radio_font"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/loan_heade_sumrb5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/radio_background"
+            android:button="@null"
+            android:gravity="center"
+            android:tag="4"
+            android:text="5万以上"
+            android:textColor="@drawable/radio_font"
+            android:textSize="13sp" />
+
+    </RadioGroup>
+
+
+</LinearLayout>

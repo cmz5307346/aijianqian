@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">亿龙贷</string>
+    <string name="title_activity_tools_loan">ToolsLoan</string>
+    <string name="title_activity_tools_base">ToolsBaseActivity</string>
+    <string name="tv_busloan">商业性(元):</string>
+    <string name="tv_publoan">公积金(元):</string>
+    <string name="tv_year">按揭年数:</string>
+    <string name="tv_rate">贷款利率:</string>
+    <string name="tv_busrate">商业(%):</string>
+    <string name="tv_pubrate">公积金(%):</string>
+    <string name="tv_paytotal">还款总额:</string>
+    <string name="tv_interest">支付利息款:</string>
+    <string name="tv_month">月均还款:</string>
+    <string name="tv_loantotal1">贷款总额:</string>
+    <string name="tv_monthnum">贷款月数:</string>
+
+    <string name="notice">温馨提示</string>
+    <string name="ask_service">是否咨询客服</string>
+    <string name="notice_msg">请在应用管理中打开“电话”访问权限!</string>
+    <string name="dialog_box">对话框</string>
+    <string name="camera_notice">请打开相机拍照及读写内存卡的权限</string>
+    <string name="not_get_photo">没有获取到照片</string>
+
+    <string name="activity_pi_title">产品详情</string>
+    <string name="tv_pi_loanRange">贷款金额</string>
+    <string name="tv_pi_loanCycle">贷款期限</string>
+    <string name="tv_pi_loanDayRate">日利率</string>
+    <string name="tv_pi_importantRemind">关键字</string>
+    <string name="tv_pi_loanCalc">贷款试算</string>
+    <string name="tv_pi_loanIntroduction">审核说明</string>
+    <string name="tv_pi_applyFlow">申请流程</string>
+    <string name="tv_pi_applyCondition">申请条件</string>
+    <string name="tv_pi_money">金额</string>
+    <string name="tv_pi_moneyUnit">元</string>
+    <string name="tv_pi_date">期限</string>
+    <string name="tv_pi_dateUnit">天</string>
+    <string name="tv_pi_dayMoney">日还款\n0.0元</string>
+    <string name="tv_pi_grossInterest">总利息\n0元</string>
+    <string name="dialog_text_pia">以上利率仅供参考,最终费用由个人信用等级评估决定。</string>
+
+    <string name="dialog">对话框</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="submit">提交</string>
+    <string name="camera">拍照</string>
+    <string name="photo">相册</string>
+    <string name="customerService">客服</string>
+    <string name="noData">无数据</string>
+    <string name="noWeb">哎哟我去，好像没有网络</string>
+    <string name="dialog_saveImageSuccess">已保存到图库</string>
+    <string name="dialog_getPermissionFail">权限申请失败</string>
+    <string name="dialog_getPermissionSuccess">权限申请成功</string>
+    <string name="scoreDialog_content">给5星好评，立即加速审核哦！</string>
+    <string name="scoreDialog_cancel">不要加速</string>
+    <string name="scoreDialog_confirm">立即加速</string>
+    <string name="dialog_notHaveMarket">您未安装任何没有应用市场</string>
+    <string name="tools_car">车险计算</string>
+    <string name="tools_person">个税计算</string>
+    <string name="tools_loan">贷款计算</string>
+    <string name="tools_old">养老金计算</string>
+    <string name="tools_lose">失业险计算</string>
+
+</resources>
